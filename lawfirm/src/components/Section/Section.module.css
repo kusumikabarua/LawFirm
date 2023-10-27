@@ -1,0 +1,9 @@
+
+.wrapper {
+    display: flex;
+    gap: 40px;
+    padding: 18px;
+}
+.cardsWrapper {
+    margin-top: 18px;   
+}

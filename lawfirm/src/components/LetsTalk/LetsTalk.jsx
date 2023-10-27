@@ -7,7 +7,7 @@ const LetsTalk = () => {
   return (
     <form className= {styles.wrapper}>
       <Email className= {styles.icon}/>
-      <input className= {styles.letsTalk} placeholder="        Enter your email address" />
+      <input className= {styles.letsTalk} placeholder="          Enter your email address" />
       <button className= {styles.letsTalkButton}>
       Let’s Talk
       </button>

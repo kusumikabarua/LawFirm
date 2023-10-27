@@ -8,12 +8,12 @@ const HeroImage = () => {
     <div className={styles.heroImage}>
       <div>
         <div className={styles.header}>
-          <p>You don’t have to</p>
-          <p>Fight them Alone.</p>
+          <p>You don’t have to <br/>
+          Fight them Alone.</p>
         </div>
         <div className={styles.content}>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit blandit,
-          curabitur sodales conubia ut inceptos faucibus himenaeos tortor eget,
+          Lorem ipsum dolor sit amet consectetur adipiscing elit blandit, <br/>
+          curabitur sodales conubia ut inceptos faucibus himenaeos tortor eget, <br/>
           hac massa gravida arcu interdum proin curae.
         </div>
         <LetsTalk />

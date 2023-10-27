@@ -1,0 +1,41 @@
+.wrapper {
+  width: 250px;
+  border: #fff solid;
+  border-radius: 14px;
+  border: 1.4px solid rgba(255, 255, 255, 0.10); 
+  padding:10px;
+}
+.content {
+   
+    
+  color: var(--Pure-White, #fff);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 162.523%; /* 29.254px */
+  opacity: 0.3;
+}
+
+
+.cardimg {
+    border-radius: 100%;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+  }
+
+.titleWrapper {
+  margin: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cardButton {
+  width: 121px;
+  height: 43px;
+  border-radius: 23.5px;
+  background: #e3b748;
+  margin-top: 10px;
+}

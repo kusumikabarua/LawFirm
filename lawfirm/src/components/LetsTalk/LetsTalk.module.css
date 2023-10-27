@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  align-items: stretch;
+  height: 48px;
+  position: relative;
+}
+.icon{
+    position: absolute;
+    opacity: 0.1;
+    left:10px;
+    top:25px;
+}
+.letsTalk {
+  background-image:white url('../../assets/email.svg') no-repeat ; 
+  border-radius: 43px;
+  opacity: 0.1;
+ background: white;
+  width: 438px;
+  height: 74px;
+ 
+}
+
+.letsTalkButton {
+  width: 137px;
+  height: 62px;
+  border-radius: 43px;
+  background: #e3b748;
+  position: absolute;
+  left:290px;
+  top: 7px;
+  
+}

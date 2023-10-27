@@ -10,8 +10,7 @@ const Card = ({ data, type }) => {
         const { successrate, content } = data;
         return (
           <div className={styles.wrapper}>
-            <div className={styles.cardimg}><CardImageSvg /></div>
-              
+            <div className={styles.cardimg}><CardImageSvg /></div>   
               <h3>{successrate} Success Rate</h3>
               <p  className ={styles.content}>{content}</p>
             <button className={styles.cardButton}>Read More</button>

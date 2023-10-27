@@ -19,3 +19,32 @@ export const successRate = [
   }
   
 ];
+
+export const practices = [
+  {
+    title: `BUSINESS LAW`,
+    image: "Businesslaw.jpg",
+  },
+  {
+    title: `PARTNERSHIP LAW`,
+    image: "PartnershipLaw.jpg",
+  },
+  {
+    title: `RREAL ESTATE LAW`,
+    image: "Realestatelaw.jpg",
+  },
+  {
+    title: `BUSINESS LAW`,
+    image: "Businesslaw1.jpg",
+  },
+  {
+    title: `LANDLORD DISPUTES`,
+    image: "LandlordDisputes.jpg",
+  },
+  {
+    title: `ELDER ABUSE`,
+    image: "ElderAbuse.jpg",
+  }
+ 
+  
+];

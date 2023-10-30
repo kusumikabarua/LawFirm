@@ -6,6 +6,8 @@ import Intro from './components/Intro/Intro';
 import WhyChooseUs from './components/WhyChooseUs/WhyChooseUs';
 import AreaOfPractices from './components/AreaOfPractices/AreaOfPractices';
 import Clients from './components/Clients/Clients';
+import OurTeam from './components/OurTeam/OurTeam';
+import Faq from './components/FAQ/Faq'
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
     <WhyChooseUs />
     <AreaOfPractices/>
     <Clients />
+    <OurTeam />
+    <Faq />
     </div>
   );
 }

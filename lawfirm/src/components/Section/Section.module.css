@@ -4,6 +4,18 @@
     gap: 40px;
     padding: 18px;
 }
+.faqWrapper {
+  
+    gap: 40px;
+    padding: 18px;
+}
+.teamWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 18px;
+
+}
 .cardsWrapper {
     margin-top: 18px;   
 }

@@ -5,6 +5,21 @@
   border: 1.4px solid rgba(255, 255, 255, 0.10); 
   padding:10px;
 }
+.teamWrapper {
+    width: 250px;
+    border: #fff solid;
+    border-radius: 14px;
+    border: 1.4px solid rgba(255, 255, 255, 0.10); 
+    padding:10px;
+    display: flex;
+    justify-content: center;
+  }
+ .teamDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+ } 
 .content {
    
     

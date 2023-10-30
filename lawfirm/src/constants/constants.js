@@ -44,9 +44,7 @@ export const practices = [
   {
     title: `ELDER ABUSE`,
     image: "ElderAbuse.jpg",
-  }
- 
-  
+  }  
 ];
 
 export const clients = [
@@ -76,8 +74,73 @@ export const clients = [
     sit aliqua dolor do amet sint. Velit officia
     consequatduis enim velit mollit Exer. sit
     aliqua dolor do amet sint. Velit officia`
-  }
-  
- 
-  
+  }  
 ];
+export const team = [
+  {
+    title: `Danial Def`,
+    image: "DanialDef.jpg",
+    cases: '301'
+  },
+  {
+    title: `Sanfole`,
+    image: "Sanfole.jpg",
+    cases: '850'
+  },
+  {
+    title: `Cesforila`,
+    image: "Cesforila.jpg",
+    cases: '470'
+  },
+  {
+    title: `Colleen`,
+    image: "Colleen.jpg",
+    cases: '180'
+  },
+  {
+    title: `Haldone`,
+    image: "Haldone.jpg",
+    cases: '212'
+  },
+  {
+    title: `Nik Jeo`,
+    image: "NikJeo.jpg",
+    cases: '350'
+  },   
+];
+
+export const faqs = [
+  {
+    "title": "Do I need a personal injury report?",
+    "content": `Amet minim mollit non deserunt ullamco est sit
+    aliqua dolor do amet sint. Velit officia consequatduis
+    enim velit mollit Exer. Amet minim mollit non deserunt
+    ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.`
+    
+  },
+  {
+    "title": "How much is my case worth?",
+    "content": `Amet minim mollit non deserunt ullamco est sit
+    aliqua dolor do amet sint. Velit officia consequatduis
+    enim velit mollit Exer. Amet minim mollit non deserunt
+    ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.`
+    
+  },
+  {
+    "title": "How much is my case worth?",
+    "content": `Amet minim mollit non deserunt ullamco est sit
+    aliqua dolor do amet sint. Velit officia consequatduis
+    enim velit mollit Exer. Amet minim mollit non deserunt
+    ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.`
+    
+  },
+  {
+    "title": "Do I need a personal injury report?",
+    "content": `Amet minim mollit non deserunt ullamco est sit
+    aliqua dolor do amet sint. Velit officia consequatduis
+    enim velit mollit Exer. Amet minim mollit non deserunt
+    ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer.`
+    
+  }
+ 
+]

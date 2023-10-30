@@ -33,6 +33,22 @@ const Card = ({ data, type }) => {
           </div>
         );
       }
+      case "team": {
+        const { title, image, cases } = data;
+        return (
+          <div className={styles.teamWrapper}>
+            <img
+              className={styles.cardimg}
+              src={require(`../../assets/${image}`)}
+              alt={title}
+            />
+            <div className={styles.teamDetails}>
+              <h3>{title}</h3>
+              <p className={styles.content}>{cases} cases</p>
+            </div>
+          </div>
+        );
+      }
       default:
         return <></>;
     }

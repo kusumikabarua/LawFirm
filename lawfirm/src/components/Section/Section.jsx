@@ -18,6 +18,17 @@ const Section = ({ data, type }) => {
           </div>
         );
       }
+      case "clients": {
+        return (
+          <div className={styles.cardWrapper}>
+            <div className={styles.wrapper}>
+              {data.map((item) => {
+                return <Card data={item} type={type} />;
+              })}
+            </div>
+          </div>
+        );
+      }
       case "areaOfPractices": {
         return (
           <div className={styles.cardWrapper}>

@@ -48,3 +48,36 @@ export const practices = [
  
   
 ];
+
+export const clients = [
+  {
+    title: `Devon Lane`,
+    image: "DevonLane.jpg",
+    job: "Ceo of Hunt",
+    content:`Amet minim mollit non deserunt ullamco est
+    sit aliqua dolor do amet sint. Velit officia
+    consequatduis enim velit mollit Exer. sit
+    aliqua dolor do amet sint. Velit officia`
+  },
+  {
+    title: `Jane Cooper`,
+    image: "JaneCooper.jpg",
+    job: "Ceo of Hunt",
+    content:`Amet minim mollit non deserunt ullamco est
+    sit aliqua dolor do amet sint. Velit officia
+    consequatduis enim velit mollit Exer. sit
+    aliqua dolor do amet sint. Velit officia`
+  },
+  {
+    title: `Robert Fox`,
+    image: "RobertFox.jpg",
+    job: "Ceo of Hunt",
+    content:`Amet minim mollit non deserunt ullamco est
+    sit aliqua dolor do amet sint. Velit officia
+    consequatduis enim velit mollit Exer. sit
+    aliqua dolor do amet sint. Velit officia`
+  }
+  
+ 
+  
+];

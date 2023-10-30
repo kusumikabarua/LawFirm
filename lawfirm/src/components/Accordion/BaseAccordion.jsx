@@ -11,7 +11,7 @@ export default function BasicAccordion({title,content}) {
    
       <Accordion   className={styles.wrapper}>
         <AccordionSummary
-          expandIcon={<AddCircleIcon sx={{ color: "yellow" }} />}
+          expandIcon={<AddCircleIcon sx={{ color: "#e3b748" }} />}
           aria-controls="panel1a-content"
           id="panel1a-header"
          

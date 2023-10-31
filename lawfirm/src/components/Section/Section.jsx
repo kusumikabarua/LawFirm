@@ -4,6 +4,7 @@ import styles from "./Section.module.css";
 import Card from "../Card/Card";
 import BasicGrid from "../Grid/BasicGrid";
 import BasicAccordion from "../Accordion/BaseAccordion";
+import Carousel from "../Carousel/Carousel"
 
 const Section = ({ data, type }) => {
   const getSection = (type) => {
@@ -22,11 +23,13 @@ const Section = ({ data, type }) => {
       case "clients": {
         return (
           <div className={styles.cardWrapper}>
-            <div className={styles.wrapper}>
-              {data.map((item) => {
-                return <Card data={item} type={type} />;
-              })}
-            </div>
+            {/* <div className={styles.wrapper}> */}
+              {/* {data.map((item) => {
+                 return <Card data={item} type={type} />;
+               
+              })} */}
+               <Carousel data={data} renderComponent={(data)=><Card data={data} type={type} />}/>
+            {/* </div> */}
           </div>
         );
       }

@@ -1,0 +1,39 @@
+.link {
+  display: flex;
+  height: 74px;
+  width: 100vw;
+  padding: 0px 32px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.centerLink {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.iconsWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  gap: 10px;
+}
+.icons {
+  width: 20px;
+  height: 20px;
+}
+.policy{
+    display: flex; 
+    justify-content: center;
+    color: #FFF;
+
+font-family: Helvetica Now Display;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+gap: 10px;
+}
+.footer{
+    width: 1440px;
+height: 367px;
+}

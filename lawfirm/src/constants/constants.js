@@ -144,3 +144,25 @@ export const faqs = [
   }
  
 ]
+
+export const icons = [
+  {
+    title: `instagram`,
+    image: "instagram.png",
+   
+  },
+  {
+    title: `facebook`,
+    image: "facebook.png",
+   
+  },
+  {
+    title: `twitter`,
+    image: "twitter.png",
+   
+  },{
+    title: `pininterest`,
+    image: "pininterest.png",
+   
+  },
+]
